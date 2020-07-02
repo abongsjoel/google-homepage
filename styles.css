@@ -14,7 +14,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: rgb(100, 100, 100);
     font-weight: 400;
     font-size: 1.2em;
 }
@@ -28,4 +28,27 @@ header, footer {
 nav li {
     display: inline-block;
     padding: 8px 14px;
+}
+
+footer {
+    background-color: rgb(238, 238, 238);
+}
+
+.top-right-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.top-right-nav ul img {
+    width: 30px;
+    height: auto;
+}
+
+.signin {
+    padding: 8px 20px;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    background-color: #4387fd;
+    border: 1px solid #4285f4;
 }
