@@ -5,3 +5,16 @@ body {
     height: 100vh;
     justify-content: space-between;
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-size: 1.2em;
+}
