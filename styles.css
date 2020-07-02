@@ -1,3 +1,7 @@
 body {
-    background: green;
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
 }
