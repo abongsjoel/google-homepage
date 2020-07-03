@@ -25,13 +25,6 @@ header, footer {
     padding: 15px;
 }
 
-@media (max-width: 600px) {
-    header, footer {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
 nav li {
     display: inline-block;
     padding: 8px 14px;
@@ -79,20 +72,13 @@ main section img {
 main section input {
     width: 50vw;
     border: 1px solid #ccc;
-    padding: 20px 50px;
+    padding: 15px 50px;
     margin: 30px 0;
     border-radius: 50px;
     font-size: 1.2em;
     color: #333;
     outline: none;
 }
-
-@media (max-width: 600px) {
-    main section input {
-        width: 80vw;
-    }
-}
-
 
 main button {
     margin: 0 10px;
@@ -124,24 +110,41 @@ main button {
     right: 20px;
 }
 
+@media (max-width: 600px) {
 
-/* .input-icons i {
-    position: absolute;
+    header, footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .signin {
+        padding: 7px;
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+
+    nav ul li a {
+        font-size: 0.8em;
+    }
+
+    main section input {
+        width: 80vw;
+    }
+
+    main section img {
+        width: 200px;
+    }
+
+    main {
+        margin-top: -50px;
+    }
+
+    main button {
+        margin: 0 5px;
+        padding: 5px 10px;
+        font-size: 0.7em;
+    }
 }
 
-.input-icons {
-    width: 100%;
-    margin-bottom: 10px;
-    position: relative;
-}
 
-.icon {
-    padding: 10px;
-    min-width: 40px;
-}
-
-.input-field {
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-} */
