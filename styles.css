@@ -2,7 +2,7 @@ body {
     font-family: arial, sans-serif;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 98vh;
     justify-content: space-between;
 }
 
@@ -55,7 +55,6 @@ footer {
 
 main {
     margin-top: -200px;
-    width: 100vw;
 }
 
 main section {
