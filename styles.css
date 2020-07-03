@@ -87,6 +87,13 @@ main section input {
     outline: none;
 }
 
+@media (max-width: 600px) {
+    main section input {
+        width: 80vw;
+    }
+}
+
+
 main button {
     margin: 0 10px;
     padding: 10px 20px;
